@@ -1,6 +1,10 @@
 public class reportPDFFactory implements reportFactory{
     @Override
-    public report createReport() {
-        return new reportPDF();
+    public writingReport writeReport() {
+        return new writingReportPDF();
+    }
+    @Override
+    public usingReport useReport() {
+        return new usingPDF();
     }
 }

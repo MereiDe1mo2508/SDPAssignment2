@@ -1,3 +1,4 @@
 public interface reportFactory {
-    public report createReport();
+    writingReport writeReport();
+    usingReport useReport();
 }

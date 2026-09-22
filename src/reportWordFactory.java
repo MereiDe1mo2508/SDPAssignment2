@@ -1,6 +1,10 @@
 public class reportWordFactory implements reportFactory {
     @Override
-    public report createReport() {
-        return new reportWord();
+    public writingReport writeReport() {
+        return new writingReportWord();
+    }
+    @Override
+    public usingReport useReport() {
+        return new usingWord();
     }
 }
