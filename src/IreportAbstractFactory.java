@@ -1,4 +1,4 @@
 public interface IreportAbstractFactory {
-    abstract IuseReport useReport();
-    abstract IwriteReport writeReport();
+    IuseReport useReport();
+    IwriteReport writeReport();
 }

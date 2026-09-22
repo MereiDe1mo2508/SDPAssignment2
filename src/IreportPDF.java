@@ -1,4 +1,4 @@
-public abstract class IreportPDF implements IreportAbstractFactory{
+public class IreportPDF implements IreportAbstractFactory{
     @Override
     public IuseReport useReport() {
         return new IusePDF();
